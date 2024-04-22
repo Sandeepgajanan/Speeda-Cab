@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-v8-content {
+  background: #fff;
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+}
+
+.form-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3d5983;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.form-left img {
+  max-width: 100%;
+}
+
+.form-right {
+  flex: 1;
+  padding: 30px;
+}
+
+.tab {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.tab-inner {
+  flex: 1;
+  text-align: center;
+}
+
+.tablinks {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.tablinks.active {
+  color: #3d5983;
+  font-weight: bold;
+}
+
+.form-detail {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.input-text {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-text:focus {
+  border-color: #3d5983;
+}
+
+.register {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3d5983;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.register:hover {
+  background-color: #2c466b;
+}
